@@ -1,0 +1,21 @@
+{
+  "private": false,
+  "name": "tabbed-bar-vue",
+  "version": "0.0.1",
+  "description": "A vuejs app for tabbed bar",
+  "author": "Mehmet Bebek",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve TabbedBar.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.10.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
